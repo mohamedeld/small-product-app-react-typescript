@@ -1,8 +1,9 @@
+import Image from "./Image"
 
 const ProductCard = () => {
   return (
     <div className="flex flex-col border rounded-md p-2">
-      <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="car image"/>
+      <Image imageSrc="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="car image"/>
       <h3>car name</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quis. Est explicabo, minus dicta accusantium sequi adipisci sed dignissimos. Modi?</p>
       <div className="flex items-center gap-1 my-4">
@@ -14,7 +15,7 @@ const ProductCard = () => {
       </div>
       <div className="flex justify-end items-center gap-3">
         <span>$500,000</span>
-        <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="car image" className="w-10 h-10 rounded-full"/>
+        <Image imageSrc="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="car image" className="w-10 h-10 rounded-full object-cotain"/>
       </div>
       <div className="flex justify-center items-center gap-3 mt-5">
         <button className="outline-none py-2 bg-indigo-500 flex-1 text-white rounded-md">Edit</button>
